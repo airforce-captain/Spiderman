@@ -3,6 +3,7 @@
 import scrapy
 import urllib
 import os
+from sys import stdout as sOut
 
 #图片保存路径.
 images_path="images/"
@@ -18,8 +19,8 @@ def progress(a, b, c):
     per = 100.0 * a * b / c 
     if per > 100: 
         per = 100 
-    print 'Downloading %.2f%%' % per
-
+    sOut.write("Downloading %.2f%% \r" % (per))
+    sOut.flush()
 
 class Mm131Spider(scrapy.Spider):
     name = "mm131"
