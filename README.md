@@ -1,10 +1,10 @@
 # howto use
 
-A.frist,get source file, use git.
+(1).frist,get source file, use git.
 
 git clone https://github.com/airforce-captain/Spiderman.git
 
-B. you must install scrapy engine. use python pip command.
+(2). you must install scrapy engine. use python pip command.
 
 pip install scrapy
 
@@ -17,9 +17,9 @@ yum install python-pip
 on ubuntu via apt:
 apt-get install python-pip
 
-C. execute bash script.
+(3). execute bash script.
 
 bash runspider.sh	--> or -->    ./runspider.sh
 
 
-D. enjoy~. all download picture in current images folder.
+(4). enjoy~. all download picture in current images folder.
