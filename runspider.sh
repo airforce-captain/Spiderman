@@ -1,3 +1,3 @@
 #!/bin/bash
 
-scrapy runspider mm131.py
+scrapy runspider mm131.py -s LOG_LEVEL=INFO
